@@ -16,6 +16,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        if segue.identifier == "openMovieDetails" {
+            if let next = segue.destination as! MovieDetailsViewController? {
+                next.movie = sender as! Movie
+            }
+        }
+    }
 
 
 }
@@ -39,5 +48,16 @@ extension ViewController: UITableViewDataSource {
     }
     
     
+}
+extension ViewController : UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let data = movies.movies[indexPath.row]
+        self.openDetails(movie: data)
+    }
+}
+extension ViewController {
+        func openDetails(movie: Movie){
+            self.performSegue(withIdentifier: "openMovieDetails", sender: movie)
+        }
 }
 

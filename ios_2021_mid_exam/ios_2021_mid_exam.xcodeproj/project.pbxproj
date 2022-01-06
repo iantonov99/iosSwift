@@ -15,6 +15,7 @@
 		F5C3BAEF27874CEF00A7C735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C3BAED27874CEF00A7C735 /* LaunchScreen.storyboard */; };
 		F5C3BAF72787541800A7C735 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3BAF62787541800A7C735 /* Model.swift */; };
 		F5C3BAF92787575000A7C735 /* MoviesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3BAF82787575000A7C735 /* MoviesTableCell.swift */; };
+		F5C3BAFB27875C9E00A7C735 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3BAFA27875C9E00A7C735 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F5C3BAF027874CEF00A7C735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5C3BAF62787541800A7C735 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F5C3BAF82787575000A7C735 /* MoviesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableCell.swift; sourceTree = "<group>"; };
+		F5C3BAFA27875C9E00A7C735 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				F5C3BAF027874CEF00A7C735 /* Info.plist */,
 				F5C3BAF62787541800A7C735 /* Model.swift */,
 				F5C3BAF82787575000A7C735 /* MoviesTableCell.swift */,
+				F5C3BAFA27875C9E00A7C735 /* MovieDetailViewController.swift */,
 			);
 			path = ios_2021_mid_exam;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				F5C3BAE727874CEE00A7C735 /* ViewController.swift in Sources */,
 				F5C3BAE327874CEE00A7C735 /* AppDelegate.swift in Sources */,
 				F5C3BAE527874CEE00A7C735 /* SceneDelegate.swift in Sources */,
+				F5C3BAFB27875C9E00A7C735 /* MovieDetailViewController.swift in Sources */,
 				F5C3BAF72787541800A7C735 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
