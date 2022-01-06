@@ -16,7 +16,7 @@ class MovieDetailsViewController: UIViewController {
         MovieTitle.text = movie.title
         MovieImage.image = UIImage.init(imageLiteralResourceName: movie.photo)
         Description.text = movie.info.description
-        ReleaseDate.text = movie.info.releaseDate
+        ReleaseDate.text = "Release Date: " + movie.info.releaseDate
         
     }
 
