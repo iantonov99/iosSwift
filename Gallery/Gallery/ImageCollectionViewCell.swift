@@ -5,4 +5,9 @@
 //  Created by Konstantin Zaimov on 11/25/21.
 //
 
-import Foundation
+import UIKit
+
+class ImageCollectionViewCell : UICollectionViewCell {
+    
+    @IBOutlet weak var image: UIImageView!
+}
